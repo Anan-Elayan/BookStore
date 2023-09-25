@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Book Store App "
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textStyle="italic"
+
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="22dp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="173dp"
+        android:layout_height="51dp"
+        android:layout_marginBottom="8dp"
+        />
+
+    <Button
+        style="@android:style/Widget.Material.Light.Button.Small"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:onClick="btnGetBookOnClick"
+        android:text="Get Books"
+        android:textColorHighlight="@color/black"
+        android:textAlignment="center"
+        android:background="@drawable/blu_background_btn"
+        android:textColorLink="#ffffff" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:scrollbarSize="20dp"
+        android:id="@+id/edtText"
+    />
+
+</LinearLayout>
